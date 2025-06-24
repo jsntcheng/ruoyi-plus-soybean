@@ -2,7 +2,7 @@ name: Build and Deploy
 
 on:
   push:
-    branches: [ "*" ]
+    branches: [ "master" ]
     paths-ignore:
       - 'README.md'
       - 'LICENSE'
@@ -38,7 +38,7 @@ jobs:
     - name: Build project
       run: pnpm build
 
-    - name: Upload via SCP
+    - name: Upload via SC
       uses: appleboy/scp-action@v1
       with:
         host: ${{ secrets.SSH_HOST }}
