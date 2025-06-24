@@ -1,0 +1,1 @@
+import{aj as n}from"./index-Z8DUt18u.js";function e(t,i="000000"){return n({url:`/auth/binding/${t}`,method:"get",params:{tenantId:i,domain:window.location.host}})}function a(t){return n({url:`/auth/unlock/${t}`,method:"delete"})}function u(){return n({url:"/system/social/list",method:"get"})}export{u as a,a as b,e as f};

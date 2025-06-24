@@ -1,0 +1,1 @@
+import{aj as t}from"./index-Z8DUt18u.js";function o(e){return t({url:"/monitor/online/list",method:"get",params:e})}function r(e){return t({url:`/monitor/online/${e}`,method:"delete"})}function i(e){return t({url:"/monitor/online",method:"get",params:e})}export{r as a,o as b,i as f};
